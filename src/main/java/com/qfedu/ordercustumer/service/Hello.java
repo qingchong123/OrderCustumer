@@ -7,4 +7,5 @@ import org.springframework.web.bind.annotation.GetMapping;
 public interface Hello {
     @GetMapping("hellofirst.do")
     public String h1();
+    int i = 1;
 }
